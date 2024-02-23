@@ -11,4 +11,4 @@ Entirely based on Confluent's dotnet quickstart guide: https://developer.conflue
 
 # About
 
-Imitates a _very_ simple fitness app, where there is a fitness tracker that publishes events (i.e. fitness exercises) onto the Kafka topic. Consumers can be set up by providing a name (e.g. web app, mobile), and the app name is the consumer group key for the topic. This means that, for example, if two "web app" consumers are set up, a single ice skating session will only be processed by one of them.
+Imitates a _very_ simple fitness app, where there is a fitness tracker that publishes events (i.e. fitness exercises) onto the Kafka topic. Consumers can be set up by providing a name (e.g. web app, mobile), and the app name is the consumer group key. This means that, for example, if two "web app" consumers are set up, a single ice skating session will only be processed by one of them.
